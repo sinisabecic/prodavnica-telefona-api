@@ -32,14 +32,14 @@
   				<p class="h2 purple"> Lista želja</p>
   				<hr>
 
-  				<table id="example" class="table table-bordered table-hover" id="tblone">
-  					<thead>
+  				<table id="example" class="table table-borderless table-hover " id="tblone">
+  					<thead class="bg-purple bijela">
   						<tr>
-  							<th width="5%">Id</th>
-  							<th width="30%">Proizvod</th>
-  							<th width="10%">Slika</th>
-  							<th width="15%">Cijena</th>
-  							<th width="10%">Akcija</th>
+  							<th class="arial" width="5%">Id</th>
+  							<th class="arial" width="30%">Naziv</th>
+  							<th class="arial" width="10%">Slika</th>
+  							<th class="arial" width="15%">Cijena</th>
+  							<th class="arial" width="10%">Akcija</th>
   						</tr>
   					</thead>
   					<?php
@@ -51,20 +51,21 @@
                         while ($result = $getPd->fetch_assoc()) {
                             $i++; ?>
   					<tr>
-  						<td><?php echo $i; ?>
+  						<td class="arial"><?php echo $i; ?>
   						</td>
-  						<td><a
+  						<td><a class="arial"
   								href="preview.php?proid=<?php echo $result['productId']; ?>">
   								<?php echo $result['productName']; ?>
   							</a>
   						</td>
-  						<td><img src="admin/pages/tables/<?php echo $result['image']; ?>"
+  						<td class="arial"><img
+  								src="admin/pages/tables/<?php echo $result['image']; ?>"
   								height="100px;" width="80px;" alt="" /></td>
-  						<td>€ <?php echo $result['price']; ?>
+  						<td class="arial">€ <?php echo $result['price']; ?>
   						</td>
 
 
-  						<td>
+  						<td class="arial">
   							<ul class="list-inline">
   								<li class="list-inline-item">
   									<a onclick="return confirm('Da li ste sigurni?')"

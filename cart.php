@@ -32,7 +32,8 @@ if (!isset($_GET['id'])) {
 
   		<div class="cartoption">
   			<div class="cartpage">
-  				<h2>Korpa</h2>
+  				<p class="h2 purple">Korpa</p>
+  				<hr>
   				<?php
          if (isset($updateCart)) {
              echo $updateCart;
@@ -56,13 +57,13 @@ if (!isset($_GET['id'])) {
   				<table id="datatable" class="table table-hover" id="tblone">
   					<thead class="bg-purple bijela">
   						<tr>
-  							<th width="5%">Br.</th>
-  							<th width="30%">Naziv</th>
-  							<th width="10%">Slika</th>
-  							<th width="15%">Cijena</th>
-  							<th width="15%">Količina</th>
-  							<th width="15%">Ukupna cijena</th>
-  							<th width="10%">Akcija</th>
+  							<th class="arial" width="5%">Br.</th>
+  							<th class="arial" width="30%">Naziv</th>
+  							<th class="arial" width="10%">Slika</th>
+  							<th class="arial" width="15%">Cijena</th>
+  							<th class="arial" width="15%">Količina</th>
+  							<th class="arial" width="15%">Ukupna cijena</th>
+  							<th class="arial" width="10%">Akcija</th>
   						</tr>
   					</thead>
   					<?php
@@ -77,7 +78,10 @@ if (!isset($_GET['id'])) {
   						<tr>
   							<td><?php echo $i; ?>
   							</td>
-  							<td class="arial"><?php echo $result['productName']; ?>
+  							<td><a class="arial"
+  									href="preview.php?proid=<?php echo $result['productId']; ?>">
+  									<?php echo $result['productName']; ?>
+  								</a>
   							</td>
   							<td><img src="admin/pages/tables/<?php echo $result['image']; ?>"
   									alt="" height="100px;" width="80px;" /></td>
