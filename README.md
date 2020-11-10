@@ -2,7 +2,7 @@
 
 ---
 
-### <span style="color:#394867">Contents</span>
+## <span style="color:#394867">Contents</span>
 
 - [Description](#description)
 - [Screenshots](#screenshots)
@@ -18,7 +18,7 @@ This is the project "<b>Mobile phone shop</b>". This project was done in the <b>
 
 ---
 
-#### <span style="color:#394867">Screenshots</span>
+## <span style="color:#394867">Screenshots</span>
 
 <a href="https://ibb.co/6N8MTmL"><img src="https://i.ibb.co/d7tTVrx/1.jpg" alt="1" border="0"></a>
 <a href="https://ibb.co/8YpyWb5"><img src="https://i.ibb.co/GHLZK92/2.jpg" alt="2" border="0"></a>
@@ -36,7 +36,7 @@ This is the project "<b>Mobile phone shop</b>". This project was done in the <b>
 
 ---
 
-#### <span style="color:#394867">How to use</span>
+## <span style="color:#394867">How to use</span>
 
 In folder **_Baza_** there is a two **_Database_** scripts `db_store.sql` for **_MySQL_** and `mongo_korisnici.json` for **_MongoDB Compass_**. Navigate **_GitBash_** to folder **_NodeApi_** and in console type **`npm start`**.
 
@@ -46,7 +46,7 @@ In folder **_Baza_** there is a two **_Database_** scripts `db_store.sql` for **
 
 ---
 
-#### <span style="color:#394867">Technologies</span>
+## <span style="color:#394867">Technologies</span>
 
 - [PHP](https://php.net)
 - [MySQL](https://www.mysql.com/)
