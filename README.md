@@ -53,6 +53,7 @@ In folder **_Baza_** there is a two **_Database_** scripts `db_store.sql` for **
 - [Node.js](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/)
 - [MongoDB Compass](https://www.mongodb.com/products/compass)
+- [AdminLTE](https://adminlte.io/)
 
 ---
 
