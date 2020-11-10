@@ -11,7 +11,7 @@
     "editor.snippetSuggestions": "top",
     "editor.minimap.enabled": true,
     "breadcrumbs.enabled": false,
-    "workbench.colorTheme": "Palenight Theme",
+    "workbench.colorTheme": "GitHub Dark",
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
