@@ -248,13 +248,11 @@ if (Session::get('is_admin') == 1) { ?>
               </a>
             </li>
 
-
-
             <li class="nav-item nav-link">
               <input class="form-control mr-sm-2" name="search" type="text" id="mySearch" onkeyup="myFunction()"
                 placeholder="Nađi proizvode...">
-              <button class="btn my-2 my-sm-0 btn-light" type="submit" style="padding:8px"><i
-                  class="fa fa-fw fa-search"></i></button>
+              <button class="btn my-2 my-sm-0 btn-light" type="submit">
+              <i class="fa fa-fw fa-search"></i></button>
             </li>
 
           </ul>
