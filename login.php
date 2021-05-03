@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
 
 					<div class="input-group mb-3">
 						<div class="input-group-prepend">
-							<span class="input-group-text" id="basic-addon1">Korisničko ime</span>
+							<span class="input-group-text purple bold" id="basic-addon1">Korisničko ime</span>
 						</div>
 						<input type="text" name="username" class="form-control" aria-label="Username"
 							aria-describedby="basic-addon1">

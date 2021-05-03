@@ -70,7 +70,7 @@
     "php-cs-fixer.formatHtml": true,
     "php-cs-fixer.documentFormattingProvider": true,
     "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer",
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt",
         "editor.formatOnSave": true
         // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
     },
